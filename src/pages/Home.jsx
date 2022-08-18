@@ -19,6 +19,8 @@ const Home = () => {
     setWeather(weatherData);
     if (weatherData === 404) {
       setIsNotFound(true);
+    } else {
+      setIsNotFound(false);
     }
   };
 
